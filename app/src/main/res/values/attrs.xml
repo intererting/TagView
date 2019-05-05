@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="TagFlowLayout">
-        <attr name="max_select" format="integer"/>
-        <attr name="atleast_one" format="boolean"/>
+        <attr name="max_select" format="integer" />
+        <attr name="atleast_one" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ShapeTextView">
+        <attr name="shape_common_stroke_width" format="dimension" />
+        <attr name="shape_checked_stroke_color" format="color" />
+        <attr name="shape_checked_bg_color" format="color" />
+        <attr name="shape_checked_radius" format="dimension" />
+        <attr name="shape_checked_text_color" format="color" />
+        <attr name="shape_normal_stroke_color" format="color" />
+        <attr name="shape_normal_bg_color" format="color" />
+        <attr name="shape_normal_radius" format="dimension" />
+        <attr name="shape_normal_text_color" format="color" />
     </declare-styleable>
 </resources>

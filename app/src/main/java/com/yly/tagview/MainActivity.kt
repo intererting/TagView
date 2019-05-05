@@ -26,5 +26,8 @@ class MainActivity : AppCompatActivity() {
         val datas = arrayListOf("1", "2", "3")
         tagAdapter.mTagDatas = datas
         tagTest.adapter = tagAdapter
+        testShpeView.setOnClickListener {
+            println("press")
+        }
     }
 }
